@@ -12,7 +12,9 @@ function clickbutton(target){
   let input = target.innerHTML;
   if(result.innerHTML == "0"){
      result.innerHTML = input;
-  }else{
+  }else if(result.innerHTML == "00") {
+      result.innerHTML = input;
+  } else {
    result.innerHTML += input;
   }
 }
