@@ -1,0 +1,22 @@
+.dentaku {
+    width: 500px;
+    height: 400px;
+}
+
+#result {
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    width: 100%;
+    padding-right: 10px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.button {
+ color: black;
+ width: 100%;
+ border-radius: 5px;
+ height: 100%;
+ font-size: 20px
+}
